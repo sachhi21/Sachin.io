@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1  ">
+    <meta name="description" content="This is a personal / portfolio website.">
+    <meta name="keywords" content="Sachin, Rampur, Sachin, Sachin Rampur, aryanpratap.in, aryanpratap.com, portfolio">
+    <meta name="author" content="Sachin Rampur">
+    <title>Sachin| Sachin Rampur</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="theme-color" content="#2793d4">
+    <link rel="stylesheet" href="style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TMD5CJ2LZR"></script>
+<script type="text/javascript">
+          function sendMail(params){
+            var tempParams = {
+                from_name: document.getElementById("sendername").value,
+                to_name: document.getElementById("senderemail").value,
+                message: document.getElementById("sendermessage").value
+            };
+            emailjs.send('gmail','template1',tempParams)
+            .then(function(res) {
+                        console.log('SUCCESS!',res.status);
+                    })
+        }
+</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_aJjikp3zYOgDQ7KT5ReTY");
+    })();
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <a href=""><span class="brand-name">Sachin</span></a> 
+        <div class="nav">
+            <ul class="nev">
+                <li><a href="https://drive.google.com/drive/folders/1irQK-81-E8JYsIjz344fTQqq_ZYY3zuk?usp=share_link">Resume</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="">Home</a></li>
+
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="main-banner" id="home">
+        <div class="container">
+            <div class="intro" style="margin-left: 20px;">
+                <p>Hi,<br> I'am <span>Sachin.</span><br>#Engineer();</p>
+                <h5><span class="typing" style="font-weight: 300; font-size: xx-large; color:darkslategray"></span></h5>
+                <!-- <h5 style="color:rgb(165, 32, 32)">A <span class="typing" style="font-weight: 300; color:#5c20a5"></span></h5> -->
+                 <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:rgb(133, 50, 50)"></span></h5> 
+                 -->   <br><br><br> 
+
+                <a href="#contact"><button class="contact-btn"  >contact</button></a>
+                <div class="social"  >
+                    <a href="https://www.linkedin.com/in/sachin-rampur-8b3b681a6/" target="_blank"><img src="assets/linkedin.png" alt="linkedin" ></a>
+                    <a href="https://github.com/sachhi21" target="_blank"><img src="assets/github.png" alt="github" ></a>
+                           </div>
+            </div>
+            <div class="clear"></div>
+            <img src="assets/Alex_Waving.gif" alt="" class="me"> 
+                          
+        </div>
+    </div>
+    <div class="main-about" id="about">
+    <div class="section-title" >about</div><br>
+    <div class="container" >
+        <img class="abt-img" src="assets/cer.gif" style="float: right; width: 35%;height: 35%;margin-right: 40px;">
+        <div class="about" >
+            <div class="col-right" style="width: 50%;">
+                <div class="intro-name" >Sachin Rampur</div>
+                <p class="abt">
+                    <br>
+                    Hey, this is Sachin. <br>
+                    A Computer Science graduate(2022) from <b>Alliance College of Engineering and Design</b>, Alliance University, Bangalore.<br>
+                    Having <b>coding</b>, <b>debugging</b>, <b>troubleshooting</b> and <b>problem solving</b> skills.<br>
+                    Interested in <b>Software Development/Engineering</b>, <b>Systems Engineering</b>, <b>Web Design/Development</b> and <b>Testing.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    <div class="skill-section" id="skill">
+        <div class="section-title">skills</div><br> 
+        <div class="container">
+            <div class="skill">
+                <div class="col-left">
+                    <div class="intro-name1">&nbsp;Professional Skills:</div><br><br>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-html"></i>
+                            <span class="skills-name">Html5</span>
+                        </div>
+
+                        <div class="skills-bar skills-html"></div>
+                        <div>
+                            <span class="skills-percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-css"></i>
+                            <span class="skills-name">Css3</span>
+                        </div>
+
+                        <div class="skills-bar skills-css"></div>
+                        <div>
+                            <span class="skills-percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-js"></i>
+                            <span class="skills-name">JavaScript</span>
+                        </div>
+
+                        <div class="skills-bar skills-js"></div>
+                        <div>
+                            <span class="skills-percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-python"></i>
+                            <span class="skills-name">Python</span>
+                        </div>
+
+                        <div class="skills-bar skills-py"></div>
+                        <div>
+                            <span class="skills-percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-java"></i>
+                            <span class="skills-name">Java</span>
+                        </div>
+
+                        <div class="skills-bar skills-java"></div>
+                        <div>
+                            <span class="skills-percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-cpp"></i>
+                            <span class="skills-name">C/C++</span>
+                        </div>
+
+                        <div class="skills-bar skills-cpp"></div>
+                        <div>
+                            <span class="skills-percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-sql"></i>
+                            <span class="skills-name">MySQL</span>
+                        </div>
+
+                        <div class="skills-bar skills-sql"></div>
+                        <div>
+                            <span class="skills-percentage">70%</span>
+                        </div>
+                    </div>
+                                        <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bx-align-justify"></i>
+                            <span class="skills-name">Eclipse</span>
+                        </div>
+
+                        <div class="skills-bar skills-nosql"></div>
+                        <div>
+                            <span class="skills-percentage">45%</span>
+                        </div>
+                    </div>
+                                        <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bx-cloud"></i>
+                            <span class="skills-name">Assembly Language</span>
+                        </div>
+
+                        <div class="skills-bar skills-aws"></div>
+                        <div>
+                            <span class="skills-percentage">35%</span>
+                        </div>
+                    </div>
+                                        <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bx-support"></i>
+                            <span class="skills-name">Linux</span>
+                        </div>
+
+                        <div class="skills-bar skills-it"></div>
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+                    </div>
+                                        <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-github"></i>
+                            <span class="skills-name">Git</span>
+                        </div>
+
+                        <div class="skills-bar skills-git"></div>
+                        <div>
+                            <span class="skills-percentage">60%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-right">
+                    
+                    <div class="container">
+                       <img src="assets/skill.jpg" alt="working...">  
+                    </div>
+                    
+                </div>  -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="work-section" id="Projects">
+        <div class="section-title">Projects</div><br><br>
+        
+       <div class="work">
+               <div class="container bd-grid">
+                    <div class="work-img" style="background-color:black">
+                        <div class="text">
+                            <h3>Hostel Management</h3>
+                            <p>Java, MangoBD, Node JS  </p>
+                            <div class="btn">
+                                <a href="https://github.com/sachhi21/Hostel-Management-System" target="_blank"><button class="visit">preview</button></a> 
+                                <a href="https://github.com/sachhi21/Hostel-Management-System" target="_blank"><button class="code">code</button></a>
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="work-img" style="background-color: black">
+                        <div class="text">
+                            <h3>To do List</h3>
+                            <p>React, HTML, CSS</p>
+                            <div class="btn">
+                                <a href="https://github.com/sachhi21/To-Do-List" target="_blank"><button class="visit">Visit</button></a> 
+                                <a href="https://github.com/sachhi21/To-Do-List" target="_blank"><button class="code">code</button></a>
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="work-img" style="background-color: black">
+                        <div class="text">
+                            <h3>Disease Identidication</h3>
+                            <p>python</p>
+                            <div class="btn">
+                                <a href="" target="_blank"><button class="visit">Visit</button></a> 
+                                <a href="" target="_blank"><button class="code">code</button></a>
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="work-img" style="background-color:black">
+                        <div class="text">
+                            <h3>Calender and Stop Watch</h3>
+                            <p>CPP</p>
+                            <div class="btn">
+                                <a href="https://github.com/sachhi21/C-programming/tree/main/c%20projects" target="_blank"><button class="visit">Visit</button></a> 
+                                <a href="https://github.com/sachhi21/C-programming/tree/main/c%20projects" target="_blank"><button class="code">code</button></a>
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        
+                    
+                    
+                </div>
+          </div>
+    </div> 
+    <div class="work-section" id="Projects">
+        <div class="section-title">Internship</div><br><br>
+        
+       <div class="work">
+               <div class="container bd-grid">
+                    <div class="work-img" style="background-color: black">
+                        <div class="text">
+                            <h3>Embedded Software Engineer</h3>
+                            <p>Cyient LTD Bangalore</p>
+                            <div class="btn">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="work-img" style="background-color:black">
+                        <div class="text">
+                            <h3>Machine Learning</h3>
+                            <p>Verzeo LTD Bangalore</p>
+                            <div class="btn">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+      </div> 
+      
+
+      <div class="work-section" id="Projects">
+        <div class="section-title">Certification</div><br><br>
+        
+       <div class="work">
+               <div class="container bd-grid">
+                    <div class="work-img" style="background-color:darkslategray">
+                        <div class="text">
+                            <h3>Accenture Developer Program</h3>
+                            <p>Virtual Internship</p>
+                            <div class="btn">
+                                <a href="https://github.com/sachhi21/Accenture-Nordics-Developer-Internship" target="_blank"><button class="visit">Visit</button></a> 
+                                <!-- <a href="https://github.com/sachhi21/Accenture-Nordics-Developer-Internship" target="_blank"><button class="code">code</button></a> -->
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="work-img" style="background-color:darkslategray">
+                        <div class="text">
+                            <h3>Java Specialization Course</h3>
+                            <p>University of California</p>
+                            <div class="btn">
+                                <a href="https://github.com/sachhi21/Java_Specialization_Course" target="_blank"><button class="visit">Visit</button></a> 
+                                <!-- <a href="https://github.com/sachhi21/To-Do-List" target="_blank"><button class="code">code</button></a> -->
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    
+                    
+                    
+                </div>
+          </div>
+    </div> 
+
+       <div class="work">
+    <div class="work-section" id="work">
+        <div class="section-title">work</div><br><br>
+        <img  src="assets/coding-freak.gif" style="width: 35%;height: 35%;">
+
+        <div>The work details of my career will be uploaded here.....Soon...!</div> <br><br>
+       <div class="work">
+
+    <div class="contact-section" id="contact" onsubmit="alert('Sent Successfully..! Thankyou:');">
+        <div class="section-title">Contact</div><br>  
+        <div class="bd-grid1">
+            <form class="contact-form" >
+                <span class="headline">Fill out the form below...</span>
+                <input type="text" placeholder="Name" id="sendername" class="contact__input" required>
+                <input type="email" placeholder="Email" id="senderemail" class="contact__input" required>
+                <textarea placeholder="Message" id="sendermessage" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="submit" onclick="sendMail('sendername','senderemail','sendermessage')" value="Send" class="contact__button button">
+            </form>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+    </div>
+
+
+
+    <div class="footer" id="follow">
+        <div class="container">
+            <h3 style="color:black;">Follow me on:</h3>
+            <div class="footer-social">
+                <a style="color: black;" href="https://www.linkedin.com/in/sachin-rampur-8b3b681a6/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a style="color: black;"href="https://github.com/sachhi21" target="_blank"><i class="bx bxl-github"></i></a>
+              </div>
+            </div>
+            <p>&copy; <span>Sachin Rampur 2022</span> 
+            </p>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript">
+      var typed = new Typed('.typing',{
+        strings: ["Programmer", "Software Developer", "Fast Learner"],
+        
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 40
+      });
+    </script>
+</body>
+</html>
